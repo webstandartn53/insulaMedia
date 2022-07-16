@@ -1,0 +1,193 @@
+body{
+    background: #e5e5e5;
+}
+.header{
+    width: 1440px;
+    display: inline-block;
+    margin-left: 32px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+.container{
+    width: 1200px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.container__link{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+}
+.container__list{
+    display: flex;
+    width: 650px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.container__list__item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    width: 150px;
+    height: 54px;
+    justify-content: space-around;
+}
+.container__list__item:first-child{
+    width: 170px;
+}
+.container__list__item__link{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'PT Root UI Web';
+font-style: normal;
+font-weight: 400;
+font-size: 0.875rem;
+line-height: 18px;
+}
+.main{
+    width: 1440px;
+    margin: 0 auto;
+    border-top: 1px solid white;
+}
+.main__container{
+    width: 1440px;
+    height: 824px;
+    background-color: rgba(240, 240, 240, 1 );
+}
+.main__container__box{
+    width: 1200px;
+    height: 617px;
+    margin: 0 auto;
+    margin-top: 104px;
+    justify-content: space-between;
+    display: flex;
+}
+.left__box{
+    flex: 6;
+    height: 350px;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+.right__box{
+    flex: 4;
+    padding-top: 100px;
+}
+.left__box h1{
+    font-family: 'PT Root UI Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #000000;
+}
+.left__box p{
+   font-size: 1.5rem;
+font-family: 'PT Root UI Web';
+font-style: normal;
+font-weight: 400;
+}
+.link__box{
+    width: 480px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.link__btn{
+    width: 216px;
+    height: 64px;
+    background-color: rgba(238, 27, 36, 1);
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'PT Root UI Web';
+font-style: normal;
+font-weight: 700;
+font-size: 1.125rem;
+padding-top: 20px;
+text-align: center;
+box-sizing: border-box;
+}
+.link__btn:last-child{
+    border: 2px solid #161A2B;
+    background: none;
+    color: rgba(22, 26, 43, 1);
+}
+.main__img{
+    float: right;
+    width: 436px;
+    height: 617px;
+}
+.section{
+    width: 1440px;
+    height: 582px;
+    display: flex;
+}
+.left-card{
+    flex: 1;
+    line-height: 30px;
+    padding-left: 120px;
+    padding-top: 50px;
+    border-bottom: 7px solid red;
+    background-color: rgba(22, 26, 43, 1);
+}
+.right-card{
+    flex: 1;
+    background-image: url(../Images/Power__plant1__bg.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: inline-block;
+    border-bottom: 7px solid #FFFFFF;
+}
+.left-card p{
+    line-height: 35px;
+    font-family: 'PT Root UI Web';
+font-style: normal;
+font-weight: 400;
+font-size: 1.125rem;
+letter-spacing: 1px;
+color: #FFFFFF;
+}
+.left-card h2{
+    font-family: 'PT Root UI Web';
+font-style: normal;
+font-weight: 500;
+font-size: 2.25rem;
+line-height: 150%;
+color: #FFFFFF;
+}
+.right-box{
+    width: 432px;
+    height: 432px;
+    margin-left: 144px;
+    margin-top: 80px;
+}
+.right-card-list{
+    width: 432px;
+    height: 208px;
+    display: flex;
+    box-sizing: border-box;
+}
+.right-card-list-item{
+    width: 208px;
+    height: 170px;
+    list-style: none;
+    box-sizing: border-box;
+    margin-right: 30px;
+    line-height: 10px;
+    padding-left: 26px;
+    padding-top: 25px;
+    background-color: rgba(22, 26, 43, 1);
+}
+.right-card-list-item h3{
+    font-size: 2.25rem;
+    color: #FFFFFF;
+}
+.right-card-list-item p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 25px;
+}
